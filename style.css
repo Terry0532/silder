@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+}
+
+#slider {
+  margin: auto;
+  display: flex;
+  height: 600px;
+  width: 800px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.slide {
+  width: 400px;
+  margin: 100px;
+  height: 400px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.slide h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #7b61ff;
+}
+
+.slide img {
+  border-radius: 25px;
+  width: 400px;
+  height: 250px;
+}
+
+button {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  margin: 100px;
+  color: black;
+  background-color: white;
+
+  cursor: pointer;
+}
+
+#slider-buttons {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
